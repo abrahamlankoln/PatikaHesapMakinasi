@@ -23,7 +23,11 @@ public class Main {
 			System.out.print(num1*num2);
 			break;
 		case 4:
+			if(num1!=0 && num2!=0) {
 			System.out.print(num1/num2);
+			}else {
+				System.out.println("0 ile islem yapilamaz...");
+			}
 			break;
 			
 		}
